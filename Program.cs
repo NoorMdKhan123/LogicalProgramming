@@ -12,7 +12,6 @@ namespace ReverseNumber
             
             while (num!= 0)
             {
-              
                 rem = num % 10;
                 rev = (rev * 10)+ rem;
                 num = num / 10;
@@ -20,4 +19,5 @@ namespace ReverseNumber
             Console.WriteLine("reverse number is" + rev);
         }
     }
-}
+}     
+           
